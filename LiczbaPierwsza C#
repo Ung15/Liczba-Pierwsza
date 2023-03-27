@@ -19,7 +19,7 @@ namespace LiczbaPierwsza
         static void Main(string[] args)
         {
             int a;
-            Console.WriteLine("Wpisz liczbe do sprawdzenia czy jest liczbą pierwszą");
+            Console.WriteLine("Wpisz liczbe do sprawdzenia czy jest liczbą pierwszą");
 
             a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Liczba {0} {1}jest pierwsza", a, (czyPierwsza(a) ? "" : "nie "));
